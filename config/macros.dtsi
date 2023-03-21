@@ -1,3 +1,9 @@
+macro_shyper: macro_shyper{
+compatible = "zmk,behavior-macro";
+label = "macro_shyper";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp LEFT_CONTROL>, <&kp LEFT_ALT>;
+};
 macro_hyper: macro_hyper{
 compatible = "zmk,behavior-macro";
 label = "macro_hyper";
