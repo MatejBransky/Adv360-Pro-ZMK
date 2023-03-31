@@ -70,11 +70,11 @@
 
         layer_nav {
             bindings = <
- &none  &none           &none           &none            &none  &none      &none                                                     &none           &none           &none         &none            &none  &none   &none
- &none  &none     &kp LS(TAB)    &kp UP_ARROW          &kp TAB  &none      &none                                                     &none     &kp LS(TAB)       &kp PG_DN     &kp PG_UP          &kp TAB  &none   &none
-&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none   &kp BSPC  &kp DEL  &none  &none  &trans  &trans   &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
- &none  &none           &none       &kp PG_DN        &kp PG_UP  &none      &none      &none   &trans  &none  &none  &trans   &none   &none           &none         &kp END      &kp HOME            &none  &none   &none
- &none  &none           &none           &none            &none         &kp ENTER  &kp SPACE   &trans                &trans  &trans  &trans                           &none         &none            &none  &none   &none
+ &none  &none           &none           &none            &none  &none      &none                                                     &none               &none               &none             &none                &none  &none   &none
+ &none  &none     &kp LS(TAB)    &kp UP_ARROW          &kp TAB  &none      &none                                                     &none  &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)  &none   &none
+&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none   &kp BSPC  &kp DEL  &none  &none  &trans  &trans   &none      &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW  &none  &trans
+ &none  &none           &none       &kp PG_DN        &kp PG_UP  &none      &none      &none   &trans  &none  &none  &trans   &none   &none  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp RG(UP_ARROW)  &kp RG(RIGHT_ARROW)  &none   &none
+ &none  &none           &none           &none            &none         &kp ENTER  &kp SPACE   &trans                &trans  &trans  &trans                                   &none             &none                &none  &none   &none
             >;
         };
 
