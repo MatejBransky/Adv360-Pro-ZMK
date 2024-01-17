@@ -78,11 +78,11 @@
 
         layer_numlock {
             bindings = <
-&none   &none  &none  &none  &none  &none  &trans                                                                                  &none      &none  &none            &none            &none            &none                &kp BACKSPACE
-&none   &none  &none  &none  &none  &none  &trans                                                                                  &trans     &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(KP_PLUS)      &none
-&trans  &none  &none  &none  &none  &none  &none   &none   &none  &none  &none  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &none      &none  &kp KP_N4        &kp KP_N5        &kp KP_NUMBER_6  &kp KP_SUBTRACT      &kp KP_EQUAL
-&none   &none  &none  &none  &none  &none  &none   &none   &none  &none  &none  &none                    &none                     &none      &none  &kp KP_N1        &kp KP_N2        &kp KP_NUMBER_3  &kp KP_DIVIDE        &none
-&none   &none  &none  &none  &none         &none   &trans  &none                &kp ESCAPE               &kp KP_ENTER              &kp SPACE         &kp KP_N0        &kp KP_COMMA     &kp KP_DOT       &kp LS(KP_MULTIPLY)  &none
+&none   &none  &none  &none  &none  &none  &trans                                                                            &none      &none  &none            &none            &none            &none                &kp BACKSPACE
+&none   &none  &none  &none  &none  &none  &trans                                                                            &trans     &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LS(KP_PLUS)      &none
+&trans  &none  &none  &none  &none  &none  &none   &none   &none  &none  &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &kp KP_N4        &kp KP_N5        &kp KP_NUMBER_6  &kp KP_SUBTRACT      &kp KP_EQUAL
+&none   &none  &none  &none  &none  &none  &none   &none   &none  &none  &none  &none                 &none                  &none      &none  &kp KP_N1        &kp KP_N2        &kp KP_NUMBER_3  &kp KP_DIVIDE        &none
+&none   &none  &none  &none  &none         &none   &trans  &none                &kp ESCAPE            &kp KP_ENTER           &kp SPACE         &kp KP_N0        &kp KP_COMMA     &kp KP_DOT       &kp LS(KP_MULTIPLY)  &none
             >;
         };
     };
