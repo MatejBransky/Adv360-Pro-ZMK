@@ -69,8 +69,8 @@
         layer_nav {
             bindings = <
 &kp F12      &none          &none                   &none           &none                    &kp F5     &trans                                                        &none   &none               &none               &none             &none                &none  &none
-&trans       &kp LG(W)      &kp LG(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LG(LA(RIGHT_ARROW))  &kp LG(T)  &none                                                         &none   &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)  &none  &none
-&trans       &kp LS(LG(T))  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none      &none      &kp BSPC   &kp DEL   &none  &none  &trans  &trans  &none   &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &none  &trans
+&trans       &kp LG(W)      &kp LG(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LG(LA(RIGHT_ARROW))  &kp LG(T)  &trans                                                        &none   &kp LA(LEFT_ARROW)  &kp LA(DOWN_ARROW)  &kp RA(UP_ARROW)  &kp RA(RIGHT_ARROW)  &none  &none
+&trans       &kp LS(LG(T))  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &none      &tog 0     &kp BSPC   &kp DEL   &none  &none  &trans  &trans  &none   &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW      &none  &trans
 &trans       &none          &kp K_COPY              &kp K_CUT       &kp K_PASTE              &none      &none      &none      &kp HOME  &none  &none  &trans  &none   &none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp RG(UP_ARROW)  &kp RG(RIGHT_ARROW)  &none  &none
 &kp PAGE_UP  &kp PAGE_DOWN  &none                   &none           &none                               &kp SPACE  &kp ENTER  &kp END                 &trans  &trans  &trans                      &none               &none             &none                &none  &none
             >;
